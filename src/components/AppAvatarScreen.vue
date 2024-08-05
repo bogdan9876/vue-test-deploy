@@ -3,16 +3,11 @@
     <AppConfeti />
 
     <h1 class="name-text">
-      <span style="--i:1">М</span>
-      <span style="--i:2">о</span>
-      <span style="--i:3">я</span>
-      <span style="--i:4"> </span>
-      <span style="--i:5">л</span>
-      <span style="--i:6">ю</span>
-      <span style="--i:7">б</span>
-      <span style="--i:8">о</span>
-      <span style="--i:9">в</span>
-      <span style="--i:10">ь</span>
+      <span style="--i:1">C</span>
+      <span style="--i:2">і</span>
+      <span style="--i:3">г</span>
+      <span style="--i:4">м</span>
+      <span style="--i:5">а</span>
     </h1>
 
     <br>
@@ -36,7 +31,7 @@
     <div class="animate__animated animate__fadeIn animate__delay-2s">
       <div class="animate__animated animate__heartBeat animate__infinite">
         <div class="text-birthday">
-          С днюхой!
+          З днем пива
         </div>
       </div>
     </div>

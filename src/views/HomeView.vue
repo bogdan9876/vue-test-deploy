@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <h1 v-if="step === 0" class="text-big animate__animated animate__backInDown">
-      Привет
+      Привіт
     </h1>
     <h1 v-if="step === 1" class="text-regular animate__animated animate__fadeIn">
-      Прекрасный день, не правда ли?
+      Сьогодні особливий день
     </h1>
     <h1 v-if="step === 2" class="text-regular animate__animated animate__pulse">
-      Твой день рождения 🙂
+      Твій день народження 🙂
     </h1>
     <div v-if="step === 3">
       <h1  class="text-regular animate__animated animate__pulse animate__infinite">
-        Главный герой этого дня — ты, <b>Лиза</b>
+        Головний герой це — ти, <b>Чоколяда</b>
       </h1>
       <div class="text-regular animate__animated animate__headShake animate__infinite">
         💪💪💪
@@ -19,26 +19,26 @@
     </div>
 
     <h1 v-if="step === 4 || step === 5 || step === 6" class="text-regular animate__animated animate__bounce" style="min-height: 400px;">
-      Этот подарок создан специально для тебя 🎁
+      Цей подарок створений спеціально для тебе 🎁
 
       <div v-if="step === 5 || step === 6" class="text-small animate__animated animate__fadeIn" style="margin-top: 30px;">
-        От твоего любимого Ильи.
+        Від вершника апокаліпсису (мене).
       </div>
 
       <div v-if="step === 6" class="text-small animate__animated animate__fadeIn" style="margin-top: 30px;">
-        Я сделал его с нуля.
+        Ця ідея спала на думку після привітання від Марка
       </div>
     </h1>
 
     <div v-if="step === 7">
       <h1 class="error" style="color: white;">
-        Oops. Site error.
+        Упс... Помилка сервера...
       </h1>
     </div>
 
     <h1 v-if="step === 8" class="text-regular" style="display: flex">
       <div class="animate__animated animate__swing animate__infinite">😂</div>
-      Я не могу без шуток
+      А тепер без приколів
       <div class="animate__animated animate__swing animate__infinite">😂</div>
     </h1>
 
@@ -48,7 +48,7 @@
       <br>
 
       <AppBtn class="animate__animated animate__bounce animate__delay-1s" @click="step++">
-        Погнали
+        Починаєм
       </AppBtn>
     </h1>
 
@@ -80,7 +80,7 @@ export default defineComponent({
     } {
     return {
       step: 0,
-      text: 'Привет',
+      text: 'Привіт',
       interval: null
     }
   },
