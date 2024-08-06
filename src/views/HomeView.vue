@@ -43,7 +43,7 @@
     </h1>
 
     <h1 v-if="step === 9" class="text-regular animate__animated animate__zoomIn">
-      Давай перейдём к главному.
+      Давай перейдемо до головного.
       <br>
       <br>
 

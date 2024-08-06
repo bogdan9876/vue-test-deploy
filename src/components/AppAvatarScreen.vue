@@ -61,9 +61,9 @@ export default defineComponent({
   .hat
     position: absolute
     z-index: 1
-    width: 110px
-    right: 35px
-    top: -40px
+    width: 90px
+    left: 50px
+    bottom: 170px
 
   img
     width: 100%
