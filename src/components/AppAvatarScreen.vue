@@ -16,10 +16,6 @@
 
     <div class="gradient-border">
       <img
-        class="hat animate__animated animate__fadeIn animate__delay-2s"
-        :src="require('@/assets/hat.svg')"
-      >
-      <img
         :src="require('@/assets/liza.jpg')"
         class="animate__animated animate__fadeIn animate__slow"
         alt="Liza image"

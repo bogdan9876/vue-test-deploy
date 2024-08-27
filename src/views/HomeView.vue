@@ -11,7 +11,7 @@
     </h1>
     <div v-if="step === 3">
       <h1  class="text-regular animate__animated animate__pulse animate__infinite">
-        Головний герой це — ти, <b>Сігма</b>
+        Головний герой це — ти, <b>Устиме</b>
       </h1>
       <div class="text-regular animate__animated animate__headShake animate__infinite">
         💪💪💪
