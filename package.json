@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --no-lint",
     "build": "vue-cli-service build --no-lint",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -36,6 +37,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^8.0.0",
+    "gh-pages": "^6.1.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "typescript": "~4.5.5"

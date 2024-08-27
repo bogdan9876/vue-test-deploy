@@ -11,7 +11,7 @@
     </h1>
     <div v-if="step === 3">
       <h1  class="text-regular animate__animated animate__pulse animate__infinite">
-        Головний герой це — ти, <b>Чоколяда</b>
+        Головний герой це — ти, <b>Сігма</b>
       </h1>
       <div class="text-regular animate__animated animate__headShake animate__infinite">
         💪💪💪
@@ -26,7 +26,7 @@
       </div>
 
       <div v-if="step === 6" class="text-small animate__animated animate__fadeIn" style="margin-top: 30px;">
-        Ця ідея спала на думку після привітання від Марка
+        Ця ідея спала на думку , після того як один дизайнер привітав відео змонтованим
       </div>
     </h1>
 
