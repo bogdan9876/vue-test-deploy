@@ -11,7 +11,7 @@
     </h1>
     <div v-if="step === 3">
       <h1  class="text-regular animate__animated animate__pulse animate__infinite">
-        Головний герой це — ти, <b>Устиме</b>
+        Головний герой це — ти, <b>Вікторія</b>
       </h1>
       <div class="text-regular animate__animated animate__headShake animate__infinite">
         💪💪💪
@@ -22,11 +22,11 @@
       Цей подарок створений спеціально для тебе 🎁
 
       <div v-if="step === 5 || step === 6" class="text-small animate__animated animate__fadeIn" style="margin-top: 30px;">
-        Від вершника апокаліпсису (мене).
+        Славі не показуй , по можливості
       </div>
 
       <div v-if="step === 6" class="text-small animate__animated animate__fadeIn" style="margin-top: 30px;">
-        Ця ідея спала на думку , після того як один дизайнер привітав відео змонтованим
+        Бо це особисте 
       </div>
     </h1>
 
